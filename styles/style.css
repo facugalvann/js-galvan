@@ -84,7 +84,7 @@ footer{
     width: 20rem;
 }
 .row{
-    margin-left: 2rem;
+    margin-left: 2rem !important;
 }
 .bg-body-tertiary { background-color: black !important;}
 .nav-link{
