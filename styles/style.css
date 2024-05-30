@@ -84,7 +84,7 @@ footer{
     width: 20rem;
 }
 .row{
-    margin-left: 5rem;
+    margin-left: 2rem;
 }
 .bg-body-tertiary { background-color: black !important;}
 .nav-link{
@@ -94,8 +94,8 @@ footer{
  --bs-nav-link-hover-color: #fff;
 }
 
-@media (min-width:476px){
+@media (min-width:306px){
     .row{
-        margin-left: 1rem;
+        margin-left: 2rem ;
     }
 }
