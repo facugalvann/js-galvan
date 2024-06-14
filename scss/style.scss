@@ -1,0 +1,127 @@
+
+@import 'variables';
+
+
+@import 'header';
+@import 'footer';
+
+
+.container-fluid {
+  margin: $margin;
+  justify-content: center;
+}
+
+.ProductosDestacadostitle {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  justify-content: center;
+  margin: $img-margin;
+}
+
+body {
+  font-family: $font-family;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li {
+  display: unset;
+  text-decoration: none;
+  color: white;
+  margin: $li-margin;
+}
+
+footer {
+  text-align: center;
+  background-color: $footer-bg-color;
+  color: white;
+}
+
+.fondocontacto {
+  width: 100%;
+  height: $fondocontacto-height;
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.ms-2 {
+  margin-left: $ms-2-margin-left;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+#emailnewsletter {
+  border-radius: $input-border-radius;
+}
+
+#nombre,
+#telefono,
+#email,
+#Comentario {
+  border-radius: $input-border-radius;
+}
+*{
+    margin: 0;
+}
+.botonform {
+  font-size: $botonform-font-size;
+  color: white;
+  background-color: red;
+}
+
+#email {
+  color: black;
+}
+
+.row {
+  margin-left: $row-margin-left !important;
+}
+
+.bg-body-tertiary {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-nav {
+  --bs-nav-link-hover-color: #fff;
+}
+
+@media (min-width: 306px) {
+  .row {
+    margin-left: $row-margin-left;
+  }
+}
+
+.card {
+  margin: $card-margin;
+  width: $card-width;
+  transition: width $card-transition-duration, height $card-transition-duration;
+
+  &:hover {
+    width: $card-hover-width;
+    height: $card-hover-height;
+  }
+}
