@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
 header {
   min-height: 100px;
   color: white;
@@ -89,10 +95,6 @@ footer {
   border-radius: 10px;
 }
 
-* {
-  margin: 0;
-}
-
 .botonform {
   font-size: 12px;
   color: white;
@@ -104,7 +106,7 @@ footer {
 }
 
 .row {
-  margin-left: 2rem !important;
+  margin-left: 2rem;
 }
 
 .bg-body-tertiary {
