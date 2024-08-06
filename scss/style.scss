@@ -115,13 +115,16 @@ footer {
   }
 }
 
-.card {
+.producto {
   margin: $card-margin;
   width: $card-width;
   transition: width $card-transition-duration, height $card-transition-duration;
+  
 
   &:hover {
     width: $card-hover-width;
     height: $card-hover-height;
   }
+
 }
+
