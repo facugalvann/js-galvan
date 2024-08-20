@@ -14,12 +14,6 @@ header {
   justify-content: space-between;
 }
 
-footer {
-  text-align: center;
-  background-color: black;
-  color: white;
-}
-
 .container-fluid {
   margin: 10px;
   justify-content: center;
@@ -60,7 +54,7 @@ li {
 
 footer {
   text-align: center;
-  background-color: black;
+  background-color: rgb(5, 3, 3);
   color: white;
 }
 
@@ -97,13 +91,13 @@ footer {
 
 
 #email {
-  color: black;
+  color: rgb(10, 4, 4);
 }
 
 
 
 .bg-body-tertiary {
-  background-color: black !important;
+  background-color: rgb(0, 0, 0) !important;
 }
 
 .nav-link {
@@ -116,6 +110,7 @@ footer {
 
 
 .productos {
+
   justify-content: center;
  flex-wrap: wrap;
  color: #fff;
@@ -129,8 +124,6 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
   display: none;
 }
 .producto {
-  
-  background-color: black;
   padding: .5rem;
   border-radius: 1rem;
   color: var(--clr-white);
@@ -139,13 +132,13 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
   flex-direction: column;
   gap: .25rem; 
   color: white;
-  background-color: black;
+  background-color: rgb(3, 2, 2);
   margin: 8px;
 }
  
 
 .producto-btn {
-  color: white;
+  color: rgb(243, 242, 242);
   border-radius: .75rem;
   border: 0;
   background-color:red;
@@ -168,13 +161,13 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 
 .carrito-productos{
   color: white;
-  background-color: black;
+  background-color: rgb(3, 1, 1);
   flex-direction: column;
   gap: .5rem;
 } */
 
 .carrito-producto-btn{
-background-color: black;
+background-color: rgb(7, 5, 5);
 border: 0;
 padding: .25rem;
 border-radius: .25rem;
@@ -191,4 +184,13 @@ cursor: pointer;
   border-radius: 1rem; 
   color: var(--clr-white); }
 
+  #vaciar-carrito {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: .25rem 1rem;
+    border-radius: 1rem;
+    margin-block: 1rem;
+    cursor: pointer;
+  }
 /* sourceMappingURL=style.css.map  */
