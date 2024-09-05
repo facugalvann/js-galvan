@@ -1,0 +1,74 @@
+[
+    {
+        "id": "Aj1-phantom",
+        "titulo": "Aj1 Phantom",
+        "precio": 3000,
+        "img": "./assets/aj-travis.avif"
+    },
+    {
+        "id": "Aj1-panda",
+        "titulo": "Aj1 Panda",
+        "precio": 3000,
+        "img": "./assets/aj1-byw.avif"
+    },
+    {
+        "id": "Aj1-travis",
+        "titulo": "Aj1 Travis",
+        "precio": 3000,
+        "img": "./assets/aj1-travis.avif"
+    },
+    {
+        "id": "Retro-4-insustrial-blue",
+        "titulo": "Retro 4 industrial blue",
+        "precio": 3000,
+        "img": "./assets/retro4-industrial-blue.avif"
+    },
+    {
+        "id": "Remera-anti-social-negra",
+        "titulo": "Remera anti social-negra",
+        "precio": 3000,
+        "img": "./assets/remera-anti-social-negro-y-rosa.avif"
+    },
+    {
+        "id": "Remera=anti-social",
+        "titulo": "Remera anti social",
+        "precio": 3000,
+        "img": "./assets/remera-anti-social.avif"
+    },
+    {
+        "id": "Remera-essentials-blanca",
+        "titulo": "Remera essentials",
+        "precio": 3000,
+        "img": "./assets/remera-essentials-bca.avif"
+    },
+    {
+        "id": "Remera-essentials",
+        "titulo": "Remera essentials",
+        "precio": 3000,
+        "img": "./assets/remera-essentials-gris.webp"
+    },
+    {
+        "id": "Aj1-concord",
+        "titulo": "Aj1 concord",
+        "precio": 3000,
+        "img": "./assets/aj1-concord.avif"
+    },
+    {
+        "id": "Aj1-court-purple",
+        "titulo": "Aj1 court purple",
+        "precio": 3000,
+        "img": "./assets/aj1-court-purple.avif"
+    },
+    {
+        "id": "Retro-4-red-cement",
+        "titulo": "Retro 4 red cement",
+        "precio": 3000,
+        "img": "./assets/retro4-blanca-y-roja.avif"
+    },
+    {
+        "id": "Aj1-chicago",
+        "titulo": "Jordan 1 chicago",
+        "precio": 3000,
+        "img": "./assets/jordan1-chicago.avif"
+    }
+]
